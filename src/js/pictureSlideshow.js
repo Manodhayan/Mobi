@@ -15,7 +15,7 @@ var image_array=["Home.jpg","IP.jpg","News.jpg","platforms.jpg","Services.jpg"]
 var index=0;
 function slideshowChange() {
 
-  parallax[0].style.backgroundImage = "url('http://127.0.0.1:5500/src/images/" + image_array[index];
+  parallax[0].style.backgroundImage = "url('https://manodhayan.github.io/Mobi/src/images/" + image_array[index];
   setTimeout(slideshowChange,3000);
   index++;
   if(index==image_array.length){index=0;}
